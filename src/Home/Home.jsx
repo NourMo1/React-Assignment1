@@ -1,11 +1,12 @@
 import React from 'react'
+import homeImage from './../assets/avataaars.svg'
 
 const Home = () => {
     return (
         <section id="home" className="d-flex justify-content-center align-items-center">
             <div className="container py-5">
                 <div className="image text-center mb-5 mx-auto">
-                    <img className="img-width" src="./../src/assets/avataaars.svg" alt="Home Image" />
+                    <img className="img-width" src={homeImage} alt="Home Image" />
                 </div>
                 <div className="title mb-4">
                     <h2 className="fw-bold mb-3 text-center text-white text-capitalize">start framework</h2>

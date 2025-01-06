@@ -1,4 +1,7 @@
 import React from 'react'
+import image1 from './../assets/poert1.png'
+import image2 from './../assets/port2.png'
+import image3 from './../assets/port3.png'
 
 const Portfolio = () => {
     return (
@@ -15,7 +18,7 @@ const Portfolio = () => {
                 <div className="row gy-3 g-md-3 g-lg-4">
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="hover-div position-relative rounded-3 overflow-hidden">
-                            <img src="./../src/assets/poert1.png" alt="App" />
+                            <img src={image1} alt="App" />
                             <div className="overlay">
                                 <i class="text-white fa-solid fa-plus fa-6x"></i>
                             </div>
@@ -23,7 +26,7 @@ const Portfolio = () => {
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="hover-div position-relative rounded-3 overflow-hidden">
-                            <img src="./../src/assets/port2.png" alt="App" />
+                            <img src={image2} alt="App" />
                             <div className="overlay">
                                 <i class="text-white fa-solid fa-plus fa-6x"></i>
                             </div>
@@ -31,7 +34,7 @@ const Portfolio = () => {
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="hover-div position-relative rounded-3 overflow-hidden">
-                            <img src="./../src/assets/port3.png" alt="App" />
+                            <img src={image3} alt="App" />
                             <div className="overlay">
                                 <i class="text-white fa-solid fa-plus fa-6x"></i>
                             </div>
@@ -39,7 +42,7 @@ const Portfolio = () => {
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="hover-div position-relative rounded-3 overflow-hidden">
-                            <img src="./../src/assets/poert1.png" alt="App" />
+                            <img src={image1} alt="App" />
                             <div className="overlay">
                                 <i class="text-white fa-solid fa-plus fa-6x"></i>
                             </div>
@@ -47,7 +50,7 @@ const Portfolio = () => {
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="hover-div position-relative rounded-3 overflow-hidden">
-                            <img src="./../src/assets/port2.png" alt="App" />
+                            <img src={image2} alt="App" />
                             <div className="overlay">
                                 <i class="text-white fa-solid fa-plus fa-6x"></i>
                             </div>
@@ -55,7 +58,7 @@ const Portfolio = () => {
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="hover-div position-relative rounded-3 overflow-hidden">
-                            <img src="./../src/assets/port3.png" alt="App" />
+                            <img src={image3} alt="App" />
                             <div className="overlay">
                                 <i class="text-white fa-solid fa-plus fa-6x"></i>
                             </div>
